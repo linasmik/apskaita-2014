@@ -1,0 +1,51 @@
+#member_new{float:left;padding:5px;padding-left:23px;padding-top:6px;background:url('../images/addIcon.png') 4px no-repeat #e7e5e5;border:1px solid #a9a9a9;cursor:pointer;color:#333;font-weight:bold;}
+#member_search{float:right;}
+.member_search_input{width:200px;height:20px;padding:2px;border:1px solid #a9a9a9;border-right:0}
+.member_search_submit{width:30px;height:26px;background:url('../images/searchIcon.png') center no-repeat #e7e5e5;border:1px solid #a9a9a9;border-left:0}
+#members_table_content{margin-top:10px;}
+#members_table{border-collapse:collapse;}
+#members_table th,td{border:1px solid #c0bcbc;}
+#members_table th{padding:5px 10px;background:url('../images/tableHeadBg.gif') repeat-x;color:#fff;}
+.emptymembers,.removedMember{text-align:center;padding:20px;}
+.removedMember{font-weight:bold;}
+.memTrZebra,.memTr,.memTrCreated{text-align:center;}
+#members_table td{padding:5px;height:20px;}
+.memTrZebra{background:#dde0ec;}
+.memTrZebra:hover,.memTr:hover,.memTrCreated:hover{background:#5990be;color:#fff;}
+.editUser{width:20px;height:20px;background:url('../images/editUserIcon.png') no-repeat center;float:left;margin-left:40px;cursor:pointer;}
+.removeUser{width:20px;height:20px;background:url('../images/removeUserIcon.png') no-repeat center;float:left;margin-left:10px;cursor:pointer;}
+#new_member_content{display:none;}
+#new_member_container{margin-top:10px;padding:10px;padding-top:19px;border:1px solid #a9a9a9;background:url('../images/createMemberBg.gif') repeat-x;}
+#createMemberForm input{background:#fff;border:1px solid #a5a2a2;height:15px;padding:3px;}
+#createMemberForm input[type="text"]{width:140px;}
+#createMemberForm input[type="submit"],#createMemberForm input[type="reset"]{height:23px;background:#cecece;cursor:pointer;}
+.showMore{background:#676c66;padding:5px;text-align:center;cursor:pointer;font-weight:bold;color:#fff;}
+.editContent{display:none;background:#cecece;}
+.memberEditContent{background:url('../images/memEditBg.gif') repeat-x #fff;border:1px solid #737373;border-top:0;padding-top:5px;}
+.taxesPaid{font-weight:bold;color:#288b06;}
+.taxesUnpaid{font-weight:bold;color:#ff0000;}
+.memberTaxesContainer{float:left;margin:0 0 10px 10px;}
+.memTaxContent{border:1px solid #737373;background:#fff;}
+.memEditLabel{margin:10px 0;font-size:16px;}
+.taxInput{border:1px solid #cecece;background:#fff;width:75px;;padding:0 3px;}
+.taxSubmit{border:1px solid #cecece;background:#ffdf04;cursor:pointer;color:#333;}
+.taxInputLine{background:url('../images/taxesInputLineBg.gif') repeat-x;padding:5px;border-bottom:1px solid #737373;color:#fff;font-weight:bold;}
+.taxesTableContainer{height:285px;overflow-y: scroll;}
+.emptyTaxTable{text-align:center;font-weight:bold;margin-top:130px;}
+.totalTaxesSum{float:right;font-weight:bold;}
+.totalTaxLine{padding:5px;background:#454645;color:#fff;border-top:1px solid #737373;}
+.taxesTable{width:100%;border-collapse:collapse;}
+.memEditFormContainer{float:left;width:570px;padding-top:15px;}
+.memEditInputTicket,.memEditInputTicketLong{float:left;background:url('../images/memEditTicketBg.gif') repeat-y right;padding:15px;padding-left:5px;margin: 0 0 15px 15px;width:250px;text-align:right;color:#3a8dcd;font-weight:bold;}
+.memEditInput,.memEditInputAddress{width:170px;border:1px solid #a9a9a9;padding:3px;margin-left:10px;}
+.memEditInputAddress{width:458px;}
+.memEditInputTicketLong{width:536px;background:#cecece;}
+.memEditOtherInfo{width:450px;height:80px;}
+.memEditSubmit,.hideEdit{font-size:15px;background:#ffdf04;border:1px solid #cecece;color:#333;padding:5px;font-weight:bold;cursor:pointer;}
+.memEditSubmitContent{text-align:right;margin-bottom:5px;}
+.hideEdit{float:right;background:#7596cd;margin-right:15px;}
+.memberEditContent{display:none;}
+.removeQuestion{font-weight:bold;margin-right:5px;float:left;margin-top:3px;}
+.removeYes,.removeNo{font-weight:bold;background:#298729;float:left;padding:2px;cursor:pointer;margin-right:3px;color:#fff;}
+.removeNo{background:#e81e1e;}
+.oldActionContent{display:none;}

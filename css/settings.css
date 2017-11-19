@@ -1,0 +1,16 @@
+#passwordChangeContainer,#otherSettings{padding:10px;float:left;border:1px solid #609749;}
+#otherSettings{margin-left:10px;}
+#passwordTitle,#otherTitle{font-size:17px;margin-bottom:10px;background:#609749;padding:5px;color:#fff;}
+.settingsInput,.settingsInputPvm{width:200px;padding:3px;border:1px solid #c0bcbc;background:#dde0ec;}
+.settingsInputPvm{width:40px;}
+.settLabel{float:left;width:200px;text-align:left;font-size:15px;}
+.pvmLabel{float:left;width:60px;text-align:left;font-size:15px;margin-left:10px;}
+.pvmInputBox{float:left;}
+.settInputBox{float:left;}
+.settContent{margin-bottom:10px;padding-left:5px;}
+#otherSettings{float:left;padding:10px;}
+.settSubmit{border:1px solid #649b4e;background:#34557a;padding:3px 5px;color:#fff;cursor:pointer;}
+.settSubmitContainer{text-align:right;}
+.errorInput{background:#eda5a5;}
+.errorMsg{color:#e52626;text-align:right;margin:5px;display:none;}
+.successMsg{color:#13a435;text-align:right;margin:5px;display:none;}

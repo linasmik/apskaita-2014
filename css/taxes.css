@@ -1,0 +1,32 @@
+#taxes_container_top{}
+#taxes_search{float:right;}
+#taxes_table_content{margin-top:14px;}
+.taxCode,.taxPayer,.taxDescription,.taxSum,.taxPayTime,.taxPrint{background:#609749;border:1px solid #c0bcbc;float:left;width:100px;color:#fff;padding:5px;text-align:center;font-weight:bold;border-right:0}
+.taxPayer{width:200px;}
+.taxDescription{width:333px;}
+.taxPrint{border-right:1px solid #c0bcbc;}
+#taxes_table_rows{height:309px;border:1px solid #c0bcbc;border-top:0;overflow-y: scroll;overflow-x: hidden;}
+.emptyTaxes{text-align:center;font-weight:bold;margin-top:130px;}
+#taxesTotalContainer{margin-top:10px;text-align:right;font-weight:bold;}
+#taxesTotal,#taxesCount{padding:5px;color:#3e9d59;}
+#taxTable{border-collapse:collapse;}
+#taxTable td{border:1px solid #c0bcbc;border-left:0;border-top:0;padding:7px;text-align:center;}
+.taxTrZebra:hover,.taxTr:hover{background:#5990be;color:#fff;}
+#taxTable th{height:0;margin:0;padding:0;}
+.taxCodeTh{width:110px;}
+.taxPayerTh{width:211px;}
+.taxDescriptionTh{width:344px;}
+.taxTrZebra{background:#dde0ec;}
+.taxSumTh{width:111px;}
+.taxDateTh{width:111px;}
+.taxPrintTh{width:94px;}
+#taxTable td:first-child + td + td{text-align:left;}
+#taxTable td:first-child + td + td + td{font-weight:bold;}
+.printTax{background:url('../images/printIcon.png') no-repeat;width:16px;height:16px;cursor:pointer;margin-left:35px;}
+.printTop{font-size:16px;margin-top:30px;}
+.printTitle{margin-top:50px;font-size:20px;font-weight:bold;text-align:center;}
+.printTable{border-collapse:collapse;font-size:12px;width:100%;margin-top:50px;}
+.printTable td,.printTable th{border:1px solid #333;padding:7px;text-align:left;}
+.printTable th{text-align:center;}
+.printTable td:first-child + td + td + td,.printTable td:first-child + td + td {text-align:center;}
+.hideTd {border-width:0 !important;}

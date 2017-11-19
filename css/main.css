@@ -1,0 +1,20 @@
+html{overflow: -moz-scrollbars-vertical;overflow-y: scroll;}
+body{margin:0;padding:0;font-family:Arial, sans-serif;font-size:12px;background:#d4cfcd;background-attachment:fixed;}
+div, p, form, ul, li, img, a{margin:0;padding:0;border:0;}
+input {margin:0;padding:0;}
+img, a{text-decoration:none;}
+form{margin:0;padding:0;}
+*:focus {outline: none;}
+.cb{clear:both;}
+.fl{float:left;}
+.fr{float:right;}
+#main_container{width:1000px;margin:10px auto;background:#fff;padding:10px;}
+div#main_menu{font-size:16px;background:url('../images/menu_bg.png');border-bottom:0;}
+div#main_menu ul{list-style-type:none;float:left;}
+div#main_menu ul li{display:inline;}
+div#main_menu ul li a{text-decoration:none;color:#fff;background:url('../images/menu_bg.png');padding: 10.5px 11px;float:left;}
+div#main_menu ul li a:visited{color: white;}
+div#main_menu  ul li a:hover, div#main_menu ul li.current a{color: #fff;background:url('../images/menu_hover.png');}
+#topTitle{padding:10px 0;font-size:25px;background:url('../images/topTitleBg.gif') repeat-y;}
+#main_content{margin-top:10px;}
+.footer{text-align:right;margin-top:10px;color:#333;border-top:2px solid #9aa1c0;padding-top:10px;}

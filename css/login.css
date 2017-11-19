@@ -1,0 +1,10 @@
+#login_cointainer{background:#fff;width:320px;margin:100px auto;}
+.loginInputUser,.loginInputPass{width:295px;height:25px;border:1px solid #cecece;background:#faffbd;padding-left:3px;}
+.labelInputPass,.labelInputUser{color:#3d3b53;padding:5px 20px;margin:10px 0;}
+.labelInputUser{background:url('../images/userIcon.png') 1px no-repeat;}
+.labelInputPass{background:url('../images/passIcon.png') 1px no-repeat;}
+.loginBoxTitle{background:url('../images/loginTitleBg.gif') repeat-x;padding:5px;text-align:center;color:#fff;font-size:15px;}
+.loginErrorUser,.loginErrorPass,.loginErrorWrong{background:#ffbdbd;border:1px solid #f79797;padding:5px;margin:3px 0;display:none;}
+#loginForm{padding:10px;;padding-top:0;}
+.loginSubmitBox{text-align:right;margin-top:10px;}
+.loginSub{border:1px solid #cecece;padding:5px;cursor:pointer;}

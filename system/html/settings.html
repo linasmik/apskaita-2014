@@ -1,0 +1,31 @@
+<div id="passwordChangeContainer">
+	<div id="passwordTitle">Slaptažodio keitimas</div>
+	<form action="" method="post" id="passwordChangeForm">
+		<div class="settContent"><div class="settLabel">Dabartinis slaptažodis</div><div class="settInputBox"><input type="password" name="realPassword" value="" class="settingsInput" /></div><div class="cb"></div></div>
+		<div class="errorMsg" id="realPassError"></div>
+		<div class="settContent"><div class="settLabel">Naujas slaptažodis</div><div class="settInputBox"><input type="password" name="newPassword" value="" class="settingsInput" /></div><div class="cb"></div></div>
+		<div class="errorMsg" id="newPassError"></div>
+		<div class="settContent"><div class="settLabel">Pakartokite slaptažodį</div><div class="settInputBox"><input type="password" name="newPasswordRepeat" value="" class="settingsInput" /></div><div class="cb"></div></div>
+		<div class="errorMsg" id="newPassRepeatError"></div>
+		<div class="successMsg" id="passwordChanged"></div>
+		<div class="settSubmitContainer"><input type="submit" value="Keisti" class="settSubmit" /></div>
+	</form>
+</div>
+<div id="otherSettings">
+	<div id="otherTitle">Įmonės informacija</div>
+	<form action="" method="post" id="otherInfoForm">
+		<div class="fl">
+			<div class="settContent"><div class="settLabel">Įmonės pavadinimas</div><div class="settInputBox"><input type="text" name="companyName" value="" class="settingsInput" /></div><div class="cb"></div></div>
+			<div class="settContent"><div class="settLabel">Įmonės kodas</div><div class="settInputBox"><input type="text" name="companyCode" value="" class="settingsInput" /></div><div class="cb"></div></div>	
+			<div class="settContent"><div class="settLabel">Įmonės adresas</div><div class="settInputBox"><input type="text" name="companyAddress" value="" class="settingsInput" /></div><div class="cb"></div></div>
+			
+		</div>
+		<div class="fl">
+			<div class="pvmLabel">PVM %</div><div class="pvmInputBox"><input type="text" name="pvm" value="" class="settingsInputPvm"></div><div class="cb"></div>
+		</div>
+		<div class="cb"></div>
+		<div class="successMsg" id="otherInfoChanged"></div>
+		<div class="settSubmitContainer"><input type="submit" value="Keisti" class="settSubmit" /></div>
+	</form>
+</div>
+<div class="cb"></div>
